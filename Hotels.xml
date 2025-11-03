@@ -31,7 +31,7 @@
   </Hotel>
 
   <Hotel id="H003" rating="4.3">
-    <Name>JW Marriott Phoenix Desert Ridge Resort & Spa</Name>
+    <Name>JW Marriott Phoenix Desert Ridge Resort and Spa</Name>
     <Phone>480-473-6000</Phone>
     <Phone>800-500-3996</Phone>
     <Address>
@@ -97,7 +97,7 @@
   </Hotel>
 
   <Hotel id="H008" rating="4.0">
-    <Name>Omni Scottsdale Resort & Spa at Montelucia</Name>
+    <Name>Omni Scottsdale Resort and Spa at Montelucia</Name>
     <Phone>480-627-3200</Phone>
     <Address>
       <Number>4949</Number>
@@ -136,7 +136,7 @@
   </Hotel>
 
   <Hotel id="H011">
-    <Name>Arizona State University Karsten Hotel & Conference Center</Name>
+    <Name>Arizona State University Karsten Hotel and Conference Center</Name>
     <Phone>480-965-1234</Phone>
     <Address>
       <Number>475</Number>
