@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+  <!-- Root -->
+  <xs:element name="Hotels">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Hotel" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <!-- Name hv to appear once -->
+              <xs:element name="Name" type="xs:string"/>
+              <!-- Phone: 0 or more -->
+              <xs:element name="Phone" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+              <!-- Address group -->
+              <xs:element name="Address">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Number" type="xs:string"/>
+                    <xs:element name="Street" type="xs:string"/>
+                    <xs:element name="City" type="xs:string"/>
+                    <xs:element name="State" type="xs:string"/>
+                    <xs:element name="Zip" type="xs:string"/>
+                    <xs:element name="NearestAirport" type="xs:string"/>
+                  </xs:sequence>
+                  <!-- optional part on Address (eg unit or building) -->
+                  <xs:attribute name="unit" type="xs:string" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+
+            <!-- attributes on Hotel -->
+            <xs:attribute name="id" type="xs:string" use="required"/>
+            <xs:attribute name="rating" type="xs:string" use="optional"/>
+
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

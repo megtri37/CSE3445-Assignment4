@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hotels.xml: valid instance of Hotels.xsd -->
+<Hotels>
+  <!-- Example from assignment pdf -->
+  <Hotel id="H001" rating="4.2">
+    <Name>Westin Tempe</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address unit="Main">
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <!-- 10 extra hotels -->
+  <Hotel id="H002" rating="4.5">
+    <Name>Arizona Biltmore, A Waldorf Astoria Resort</Name>
+    <Phone>602-955-6600</Phone>
+    <Address>
+      <Number>2400</Number>
+      <Street>E Missouri Ave</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85016</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel id="H003" rating="4.3">
+    <Name>JW Marriott Phoenix Desert Ridge Resort & Spa</Name>
+    <Phone>480-473-6000</Phone>
+    <Phone>800-500-3996</Phone>
+    <Address>
+      <Number>5350</Number>
+      <Street>E Marriott Drive</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85054</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel id="H004">
+    <Name>Hyatt Regency Phoenix</Name>
+    <Phone>602-252-1234</Phone>
+    <Address>
+      <Number>122</Number>
+      <Street>N 2nd St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel id="H005" rating="4.1">
+    <Name>The Phoenician, a Luxury Collection Resort</Name>
+    <Phone>480-941-8200</Phone>
+    <Address>
+      <Number>6000</Number>
+      <Street>E Camelback Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85251</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel id="H006" rating="3.9">
+    <Name>Hilton Phoenix Resort at the Peak</Name>
+    <Phone>602-248-2240</Phone>
+    <Address>
+      <Number>10000</Number>
+      <Street>S 51st St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85044</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel id="H007">
+    <Name>Sheraton Grand at Wild Horse Pass</Name>
+    <Phone>480-987-6400</Phone>
+    <Address>
+      <Number>5594</Number>
+      <Street>W Wild Horse Pass Blvd</Street>
+      <City>Chandler</City>
+      <State>AZ</State>
+      <Zip>85226</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel id="H008" rating="4.0">
+    <Name>Omni Scottsdale Resort & Spa at Montelucia</Name>
+    <Phone>480-627-3200</Phone>
+    <Address>
+      <Number>4949</Number>
+      <Street>E Lincoln Dr</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85253</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel id="H009" rating="4.2">
+    <Name>Renaissance Phoenix Downtown Hotel</Name>
+    <Phone>602-333-0000</Phone>
+    <Address>
+      <Number>100</Number>
+      <Street>N 1st St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel id="H010" rating="3.8">
+    <Name>Hilton Phoenix Tapatio Cliffs Resort</Name>
+    <Phone>602-997-2626</Phone>
+    <Address>
+      <Number>11111</Number>
+      <Street>N 7th St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85020</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel id="H011">
+    <Name>Arizona State University Karsten Hotel & Conference Center</Name>
+    <Phone>480-965-1234</Phone>
+    <Address>
+      <Number>475</Number>
+      <Street>S Mill Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
+</Hotels>
