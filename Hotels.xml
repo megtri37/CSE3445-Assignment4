@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Hotels.xml: valid instance of Hotels.xsd -->
 <Hotels>
-  <!-- Example from assignment pdf -->
   <Hotel id="H001" rating="4.2">
     <Name>Westin Tempe</Name>
     <Phone>480-968-8885</Phone>
@@ -16,7 +14,6 @@
     </Address>
   </Hotel>
 
-  <!-- 10 extra hotels -->
   <Hotel id="H002" rating="4.5">
     <Name>Arizona Biltmore, A Waldorf Astoria Resort</Name>
     <Phone>602-955-6600</Phone>
