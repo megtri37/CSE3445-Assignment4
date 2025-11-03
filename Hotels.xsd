@@ -12,7 +12,7 @@
               <xs:element name="Address">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element name="Number" type="xs:string"/>
+                    <xs:element name="Number" type="xs:integer"/>
                     <xs:element name="Street" type="xs:string"/>
                     <xs:element name="City" type="xs:string"/>
                     <xs:element name="State" type="xs:string"/>
@@ -24,7 +24,7 @@
               </xs:element>
             </xs:sequence>
             <xs:attribute name="id" type="xs:string" use="required"/>
-            <xs:attribute name="rating" type="xs:string" use="optional"/>
+            <xs:attribute name="rating" type="xs:decimal" use="optional"/>
           </xs:complexType>
         </xs:element>
       </xs:sequence>
